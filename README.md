@@ -1,8 +1,5 @@
 ## Hi there 👋
 
-
-Here are some ideas to get you started:
-
 - 🔭 I’m currently working on ...
   * I'm not actually sure. Something to do with hardware and storage... Maybe marketing?
 - 🌱 I’m currently learning ...
