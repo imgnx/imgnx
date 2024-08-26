@@ -44,15 +44,15 @@ for line in "${lines[@]}"; do
 		# python $SCRIPT_DIR/replace_text.py "$temp_file" "$crc32c" "\e[0m\e[32m$crc32c\e[0m\e[2m"
 		echo "Waiting..."
 		result=node $SCRIPT_DIR/replace_text.mjs "$line" "$crc32c" "\e[0m\e[32m$crc32c\e[0m\e[2m"
-		echo "Result: $result"
+		# echo "Result: $result"
 		echo -e "${DIM}$result${RESET}" >>$temp_file
 	elif [[ "$line" =~ Hash\ \(md5\):([[:space:]]*[A-Za-z0-9+/=]{24}[[:space:]]?)$ ]]; then
 		md5=$(echo "${BASH_REMATCH[1]}" | tr -d '[:space:]') # md5_decoded=$(echo $md5 | base64 --decode | xxd -p)
 		# python $SCRIPT_DIR/replace_text.py "$temp_file" "$md5" "\e[0m\e[32m$md5\e[0m\e[2m"
 		echo "Waiting..."
 		result=$(node $SCRIPT_DIR/replace_text.mjs "$line" "$md5" "\e[0m\e[32m$md5\e[0m\e[2m")
-		echo "Result: $result"
-		# echo -e "${DIM}$result${RESET}" >>$temp_file
+		# echo "Result: $result"
+		echo -e "${DIM}$result${RESET}" >>$temp_file
 	else
 		echo -e "${DIM}$line${RESET}" >>$temp_file
 	fi
