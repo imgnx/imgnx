@@ -29,7 +29,7 @@ rclone copy I:\ dmholdingsinccom:imgfunnels.com --exclude-from I:\.imgnx\.rclone
 ## Mount `IMGFUNNELS_COM` to local storage:
 
 ```bash
-rclone mount dmholdingsinccom:imgfunnels.com I:\IMGFUNNELS_COM --vfs-cache-mode full --cache-dir I:\IMG_CACHE\IMGFUNNELS_COM --debug-fuse -v --fuse-flag --network-mode
+rclone mount dmholdingsinccom:imgfunnels.com I:\IMGFUNNELS_COM --vfs-cache-mode full --cache-dir I:\__CACHE__\IMGFUNNELS_COM --debug-fuse -v --fuse-flag --network-mode
 ```
 
 This will copy the contents of `example_dir` to `imgfunnels.com`

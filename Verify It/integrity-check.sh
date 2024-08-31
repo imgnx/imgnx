@@ -1,83 +1,14 @@
 #!/bin/bash
 
-{
+SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
+echo "SCRIPT_DIR: ${SCRIPT_DIR}"
+echo "BASH_SOURCE[0]: ${BASH_SOURCE[0]}"
 
-	AMBER="\e[38;5;227m"
-	AWESOME="\e[38;5;202m"
-	BLACK="\e[30m"
-	BLUE="\e[38;5;20m"
-
-	CERISE="\e[38;5;161m"
-	CHARTREUSE="\e[38;5;118m"
-	CYAN="\e[36m"
-	CYBERPUNK="\e[38;5;198m"
-	DEEP_MAGENTA="\e[38;5;164m"
-	DEEP_RED="\e[38;5;196m"
-	DEEP_PINK="\e[38;5;198m"
-	DEEP_PURPLE="\e[38;5;57m"
-	DEADED="\e[38;5;135m"
-	EGGPLANT="\e[38;5;99m"
-	FERRARI_RED="\e[38;5;196m"
-	GREEN="\e[32m"
-	HARD_ISH_PINK="\e[38;5;200m"
-	HELIOTROPE="\e[38;5;171m"
-	HOT_PINK="\e[38;5;205m"
-	ILLICIT_PURPLE="\e[38;5;56m"
-	CORNFLOWER_BLUE="\e[38;5;62m"
-	LILAC="\e[38;5;183m"
-	MAGENTA="\e[35m"
-	MIDNIGHT_EXPRESS="\e[38;5;17m"
-	MS_PACMAN_KISS_PINK="\e[38;5;213m"
-	ORANGE_RED="\e[38;5;202m"
-	ORANGE="\e[38;5;208m"
-	PEGASUS="\e[38;5;117m"
-	DARK_PEGASUS="\e[38;5;117m"
-	FLIRT="\e[38;5;126m"
-	PEACH="\e[38;5;222m"
-	PURPLE="\e[38;5;129m"
-	RED="\e[31m"
-	PACMAN="\e[38;5;226m"
-	RED_ORANGE="\e[38;5;208m"
-	ROSE="\e[38;5;170m"
-	PINK="\e[38;5;206m"
-	PEARL="\e[38;5;231m"
-	SILVER="\e[38;5;247m"
-	UFO_GREEN="\e[38;5;84m" # UFO Green (#84) - https://en.wikipedia.org/wiki/Shades_of_green#UFO_green
-	VIOLETS_ARE_BLUE="\e[38;5;57m"
-	YELLOW="\e[33m"
-	WHITE="\e[97m"
-	WHITESMOKE="\e[38;5;7m"
-
-	STRAWBERRY="\e[38;5;203m"
-	# BKGD_STRAWBERRY="\e[48;5;203m"
-
-	# BKGD_BLURRY_PURPLE_PINK_ROSE="\e[48;5;125;38;5;251m"
-	BKGD_CYBERPUNK="\e[48;5;198m"
-	# BKGD_DEEP_PURPLE="\e[48;5;57m"
-	# BKGD_DARK_PURPLE="\e[48;5;53m"
-	# BKGD_EGGPLANT="\e[48;5;99m"
-	# BKGD_HELIOTROPE="\e[48;5;171m"
-	# BKGD_MAGENTA="\e[45m"
-	# BKGD_PERSIAN_RED="\e[48;5;204m"
-	# BKGD_PERSIAN_INDIGO="\e[48;5;75m"
-	# BKGD_ROSE="\e[48;5;251m"
-	# BKGD_TRANSPARENT_ILLICIT_PURPLE="\e[48;5;56;38;5;0m"
-	# BKGD_VIOLETS_ARE_BLUE="\e[48;5;145m"
-	# BKGD_WHITE="\e[107m"
-	BKGD_BLACK="\e[40m"
-
-	RESET="\e[0m"
-	BOLD="\e[1m"
-	NORMAL="\e[22m"
-	ITALIC="\e[3m"
-	DIM="\e[2m"
-
-	R=${RESET}
-	B=${BOLD}
-	N=${NORMAL}
-	I=${ITALIC}
-	D=${ITALIC}
-}
+PWD=$(pwd)
+cd "$SCRIPT_DIR"
+cd ../bash
+. colors.sh
+cd $PWD
 
 # Function to display spinner
 spinner() {
@@ -250,7 +181,7 @@ echo -e "Processing complete."
 			exit 1
 		fi
 		if [[ "$md5_hash" != "$md5" ]]; then
-			echo -e "${DEEP_RED}md5 hash mismatch!${R}"
+			echo -e "${DEEP_RED}Md5 hash mismatch!${R}"
 			echo -e "${WHITE}Md5 Checksum: $md5_checksum${R}"
 			echo -e "${WHITE}Md5 Hash: $md5_hash${R}"
 			exit 1

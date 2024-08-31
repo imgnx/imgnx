@@ -2,10 +2,14 @@
 .git/**
 node_modules
 node_modules/**
+site-packages
+site-packages/**
 venv/**
 IMGNX
 IMG*
 IMG**
+__CACHE__
+__CACHE__/**
 IMG_CACHE
 IMG_CACHE/**
 IMG_FUNNELS
@@ -16,3 +20,4 @@ VisualStudio
 VisualStudio/**
 $RECYCLE.BIN
 $RECYCLE.BIN/**
+*.nostore.vhdx
