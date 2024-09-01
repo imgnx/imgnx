@@ -1,1 +1,1 @@
-I:/IMGNX/bin/checksum.sh
+I:/IMGNX/bin/checksum
