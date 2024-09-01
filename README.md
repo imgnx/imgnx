@@ -1,4 +1,4 @@
-## IMGNX/DWMII (aka. "Blizzy")
+## IMGNX/DWMII (aka. 🌬️ "Blizzy")
 
 "Expectations are pre-meditated resentments"
 - Shakespeare 🎭
