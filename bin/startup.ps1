@@ -37,7 +37,7 @@ if (! $shell) {
 
 wt -w 0 sp -V -p "powershell_ise" -d $startupLocation;
 
-powershell_ise.exe code I:\IMGNX\bin\PowerShell_ISE\editwsl.ps1
+powershell_ise.exe code I:\IMGNX\bin\editwsl.ps1
 
 # wt -w 0 sp -V -p PowerShell -c pwsh.exe ./ps.ps1;
 Set-Location $startupLocation

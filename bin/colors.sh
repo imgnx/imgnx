@@ -60,4 +60,4 @@ R=${RESET}
 B=${BOLD}
 N=${NORMAL}
 I=${ITALIC}
-D=${ITALIC}
+D=${DIM}
