@@ -1,0 +1,15 @@
+#!/bin/bash
+
+pip install git-filter-repo
+curl -LO https://github.com/newren/git-filter-repo/releases/latest/download/git-filter-repo.tar.xz
+tar -xf git-filter-repo.tar.xz
+sudo make -C git-filter-repo install
+
+path=$1
+if [ $# -eq 0 ]; then
+  echo "Usage: \`git-neuralize <path>\`"
+  echo "Please enter the path to erase:"
+  read path
+fi
+test -z $path && echo "path required." 1>&2 && exit 1
+git filter-repo --path $path --invert-paths

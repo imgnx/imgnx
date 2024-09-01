@@ -29,7 +29,15 @@ $Form.TopMost = $true
 # Start-Sleep 10
 # return 0;
 
-wt -w 0 -p PowerShell sudo netstat -abfiq 1; 
+$shell = sudo wt -w 0 -p "powershell_ise" netstat -abfiq 1;
+
+if (! $shell) {
+  sudo powershell_ise.exe netstat -abfiq 1;
+}
+
+wt -w 0 sp -V -p "powershell_ise" -d $startupLocation;
+
+powershell_ise.exe code I:\IMGNX\bin\PowerShell_ISE\editwsl.ps1
 
 # wt -w 0 sp -V -p PowerShell -c pwsh.exe ./ps.ps1;
 Set-Location $startupLocation
