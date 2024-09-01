@@ -3,10 +3,6 @@
 "Expectations are pre-meditated resentments"
 - Shakespeare 🎭
 
-![NoDamselsShakespeareGIF](https://github.com/user-attachments/assets/e856b97d-8510-4a0a-b01b-4aab63e2b660)
-
-
-
 ![DiscountstorageHelloGIF](https://github.com/user-attachments/assets/45c109a3-3fb6-4a69-8bf2-dd3c77809c3a)
 - 🔭 I’m currently working on ...
   * I'm not actually sure. Something to do with hardware and storage... Maybe marketing... Maybe Analytics. Maybe AI. I don't really know yet. That's the beauty of it all.
@@ -40,3 +36,4 @@
   * You can tune a ukulele 🌺 to standard tuning. Ask me how.
   * ![UkeleleMusicGIF](https://github.com/user-attachments/assets/29d5b567-f2dd-4f1a-8fa6-013fddc0151c)
 
+![DivadloVDlouhéWilliamShakespeareGIF](https://github.com/user-attachments/assets/2e9a2476-f24e-4fb7-bdbb-bfd2f051c9ff)
