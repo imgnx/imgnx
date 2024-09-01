@@ -27,13 +27,13 @@ Shakespeare 🎭 — "Expectations are pre-meditated resentments"
 - 📫 How to reach me: ...
   * +1 855 539 0044 (text or call) or just visit https://imgnx.org/calendar. First 30 minutes are free. $200 per hour after that.
   
-
+![Peace피스사인GIF](https://github.com/user-attachments/assets/8eed838c-c76a-49fa-80e4-bb9fe63551c4)
 - 😄 Pronouns: ...
   * I don't care what you call me as long as you're not hurling insults.
-  * ![Peace피스사인GIF](https://github.com/user-attachments/assets/8eed838c-c76a-49fa-80e4-bb9fe63551c4)
 
+![UkeleleMusicGIF](https://github.com/user-attachments/assets/29d5b567-f2dd-4f1a-8fa6-013fddc0151c)
 - ⚡ Fun fact: ...
   * You can tune a ukulele 🌺 to standard tuning. Ask me how.
-  * ![UkeleleMusicGIF](https://github.com/user-attachments/assets/29d5b567-f2dd-4f1a-8fa6-013fddc0151c)
 
 ![DivadloVDlouhéWilliamShakespeareGIF](https://github.com/user-attachments/assets/2e9a2476-f24e-4fb7-bdbb-bfd2f051c9ff)
+Have a nice day!
