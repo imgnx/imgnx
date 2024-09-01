@@ -36,4 +36,5 @@ Shakespeare 🎭 — "Expectations are pre-meditated resentments"
   * You can tune a ukulele 🌺 to standard tuning. Ask me how.
 
 ![DivadloVDlouhéWilliamShakespeareGIF](https://github.com/user-attachments/assets/2e9a2476-f24e-4fb7-bdbb-bfd2f051c9ff)
+
 Have a nice day!
