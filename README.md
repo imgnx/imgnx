@@ -1,7 +1,7 @@
 ## IMGNX/DWMII (aka. 🌬️ "Blizzy")
 
-"Expectations are pre-meditated resentments"
-- Shakespeare 🎭
+Shakespeare 🎭 — "Expectations are pre-meditated resentments"
+
 
 ![DiscountstorageHelloGIF](https://github.com/user-attachments/assets/45c109a3-3fb6-4a69-8bf2-dd3c77809c3a)
 - 🔭 I’m currently working on ...
