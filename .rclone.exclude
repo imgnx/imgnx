@@ -1,13 +1,18 @@
 .git
 .git/**
+**/.git
+**/.git/**
 node_modules
 node_modules/**
+**/node_modules
+**/node_modules/**
 site-packages
 site-packages/**
+**/site-packages
+**/site-packages/**
 venv/**
+**/venv/**
 IMGNX
-IMG*
-IMG**
 __CACHE__
 __CACHE__/**
 IMG_CACHE
@@ -20,4 +25,4 @@ VisualStudio
 VisualStudio/**
 $RECYCLE.BIN
 $RECYCLE.BIN/**
-*.nostore.vhdx
+*.vhdx

@@ -1,83 +1,16 @@
 #!/bin/bash
 
-{
+SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
+# echo "SCRIPT_DIR: ${SCRIPT_DIR}"
+# echo "BASH_SOURCE[0]: ${BASH_SOURCE[0]}"
+pwd=$(pwd)
+# echo "pwd: $pwd"
 
-	AMBER="\e[38;5;227m"
-	AWESOME="\e[38;5;202m"
-	BLACK="\e[30m"
-	BLUE="\e[38;5;20m"
+cd "$SCRIPT_DIR"
 
-	CERISE="\e[38;5;161m"
-	CHARTREUSE="\e[38;5;118m"
-	CYAN="\e[36m"
-	CYBERPUNK="\e[38;5;198m"
-	DEEP_MAGENTA="\e[38;5;164m"
-	DEEP_RED="\e[38;5;196m"
-	DEEP_PINK="\e[38;5;198m"
-	DEEP_PURPLE="\e[38;5;57m"
-	DEADED="\e[38;5;135m"
-	EGGPLANT="\e[38;5;99m"
-	FERRARI_RED="\e[38;5;196m"
-	GREEN="\e[32m"
-	HARD_ISH_PINK="\e[38;5;200m"
-	HELIOTROPE="\e[38;5;171m"
-	HOT_PINK="\e[38;5;205m"
-	ILLICIT_PURPLE="\e[38;5;56m"
-	CORNFLOWER_BLUE="\e[38;5;62m"
-	LILAC="\e[38;5;183m"
-	MAGENTA="\e[35m"
-	MIDNIGHT_EXPRESS="\e[38;5;17m"
-	MS_PACMAN_KISS_PINK="\e[38;5;213m"
-	ORANGE_RED="\e[38;5;202m"
-	ORANGE="\e[38;5;208m"
-	PEGASUS="\e[38;5;117m"
-	DARK_PEGASUS="\e[38;5;117m"
-	FLIRT="\e[38;5;126m"
-	PEACH="\e[38;5;222m"
-	PURPLE="\e[38;5;129m"
-	RED="\e[31m"
-	PACMAN="\e[38;5;226m"
-	RED_ORANGE="\e[38;5;208m"
-	ROSE="\e[38;5;170m"
-	PINK="\e[38;5;206m"
-	PEARL="\e[38;5;231m"
-	SILVER="\e[38;5;247m"
-	UFO_GREEN="\e[38;5;84m" # UFO Green (#84) - https://en.wikipedia.org/wiki/Shades_of_green#UFO_green
-	VIOLETS_ARE_BLUE="\e[38;5;57m"
-	YELLOW="\e[33m"
-	WHITE="\e[97m"
-	WHITESMOKE="\e[38;5;7m"
-
-	STRAWBERRY="\e[38;5;203m"
-	# BKGD_STRAWBERRY="\e[48;5;203m"
-
-	# BKGD_BLURRY_PURPLE_PINK_ROSE="\e[48;5;125;38;5;251m"
-	BKGD_CYBERPUNK="\e[48;5;198m"
-	# BKGD_DEEP_PURPLE="\e[48;5;57m"
-	# BKGD_DARK_PURPLE="\e[48;5;53m"
-	# BKGD_EGGPLANT="\e[48;5;99m"
-	# BKGD_HELIOTROPE="\e[48;5;171m"
-	# BKGD_MAGENTA="\e[45m"
-	# BKGD_PERSIAN_RED="\e[48;5;204m"
-	# BKGD_PERSIAN_INDIGO="\e[48;5;75m"
-	# BKGD_ROSE="\e[48;5;251m"
-	# BKGD_TRANSPARENT_ILLICIT_PURPLE="\e[48;5;56;38;5;0m"
-	# BKGD_VIOLETS_ARE_BLUE="\e[48;5;145m"
-	# BKGD_WHITE="\e[107m"
-	BKGD_BLACK="\e[40m"
-
-	RESET="\e[0m"
-	BOLD="\e[1m"
-	NORMAL="\e[22m"
-	ITALIC="\e[3m"
-	DIM="\e[2m"
-
-	R=${RESET}
-	B=${BOLD}
-	N=${NORMAL}
-	I=${ITALIC}
-	D=${ITALIC}
-}
+cd ../bin
+. colors.sh
+cd $pwd
 
 # Function to display spinner
 spinner() {
@@ -107,8 +40,6 @@ spinner() {
 }
 
 # Init...
-cd "$(dirname "$0")"
-SCRIPT_DIR="$(pwd)"
 crc32c=""
 md5=""
 output=""
@@ -117,6 +48,7 @@ lines=""
 # (re:IMGNX)...bash.
 echo -e "${B}${D}${ROSE}${BKGD_CYBERPUNK}(${B}${WHITE}r${BKGD_CYBERPUNK}${B}${WHITE}e${R}${AMBER}${B}:${R}${PEACH}I${ROSE}M${DEEP_MAGENTA}G${D}${ILLICIT_PURPLE}N${EGGPLANT}X${MIDNIGHT_EXPRESS})${D}...${R}${B}${WHITE}${BKGD_BLACK} bash.${R}"
 # https://cloud.google.com/storage/docs/resumable-uploads#integrity_checks
+
 if [ $# -eq 0 ]; then
 	echo -e "Usage: \`integrity-check <file>\`"
 	echo -e "Please enter the path to the file to check:"
@@ -125,28 +57,44 @@ else
 	input=$1
 fi
 
-# Path...
-path_without_drive="${input:2}"
+. normalize_path.sh
+
+$full_path = $imgnx_normalized_path_full_path
+$object_path = $imgnx_normalized_path_object_path
+
+echo "Path: $full_path"
 
 # Check...
-echo -e "${R}${B}(R)emote${D}:....${R}${PACMAN}gs://imgfunnels.com$path_without_drive${R}"
-echo -e "${R}${B}(L)ocal${D}:.....${R}${B}${MS_PACMAN_KISS_PINK}/i$path_without_drive${R}"
+echo -e "${R}${B}(R)emote${D}:....${R}${PACMAN}gs://imgfunnels.com$object_path${R}"
+echo -e "${R}${B}(L)ocal${D}:.....${R}${B}${MS_PACMAN_KISS_PINK}$full_path${R}"
 echo -e "Is this correct?    "
 echo -en "${D}Press Enter to continue:"
 read -p ""
 echo -e "Checking integrity of ${R}$input..."
 echo -e "${D}Generating Crc/Md5 chec${CYAN}k${UFO_GREEN}s${CHARTREUSE}u${AMBER}m${ORANGE}.${RED}.${DEEP_RED}.${R}"
 
-# Temp file...
-temp_file=$(mktemp)
-
 # Mapping...
-output=$(gsutil stat "gs://imgfunnels.com$path_without_drive" 2>&1)
+output=$(gsutil stat "gs://imgfunnels.com$object_path" 2>&1)
 mapfile -t lines < <(echo -e "$output")
+temp_file=""
 
 # Recursive Function _ Check lines...
 function checklines() {
+
+	temp_file=$(mktemp) || {
+		echo -e "${DEEP_RED}Error: $!${R}"
+		exit 1
+	}
+
+	if ! [ -f "$temp_file" ]; then
+		echo -e "${DEEP_RED}Error: $!${R}"
+		exit 1
+	fi
+
 	local lines=("$@")
+
+	echo -e "${B}${WHITESMOKE}R${SILVER}e${R}${D}making temp file..."
+
 	if [ "${#lines[@]}" -gt "1" ]; then
 		echo "Payload is an Array of ${#lines[@]} elements"
 	else
@@ -158,18 +106,20 @@ function checklines() {
 		# Debugger
 		echo -e "Processed: ${YELLOW}$line${R}"
 		if [[ "$line" =~ Hash\ \(crc32c\):([[:space:]]*[A-Za-z0-9+/=]{8}[[:space:]]?)$ ]]; then
-			crc32c=$(echo "${BASH_REMATCH[1]}" | tr -d '[:space:]') #
+			crc32c=$(echo "${BASH_REMATCH[1]}" | tr -d '[:space:]')
+			echo "CRC 1: $crc32c"
 			crc32c_decoded=$(echo $crc32c | base64 --decode | xxd -p)
 			echo "Waiting..."
-			result=$(node $SCRIPT_DIR/replace_text.mjs "$line" "$crc32c" "\e[0m\e[1m\e[32m$crc32c\e[0m\e[2m")
-			echo "Result: $result"
+			result=$(node "$SCRIPT_DIR/replace_text.mjs" "$line" "$crc32c" "\e[0m\e[1m\e[32m$crc32c\e[0m\e[2m")
+			# echo "Result: $result"
 			echo -e "${D}$result${R}" >>$temp_file
 		elif [[ "$line" =~ Hash\ \(md5\):([[:space:]]*[A-Za-z0-9+/=]{24}[[:space:]]?)$ ]]; then
 			md5=$(echo "${BASH_REMATCH[1]}" | tr -d '[:space:]')
+			echo "MD5 1: $md5"
 			md5_decoded=$(echo $md5 | base64 --decode | xxd -p)
 			echo "Waiting..."
-			result=$(node $SCRIPT_DIR/replace_text.mjs "$line" "$md5" "\e[0m\e[1m\e[32m$md5\e[0m\e[2m")
-			echo "Result: $result"
+			result=$(node "$SCRIPT_DIR/replace_text.mjs" "$line" "$md5" "\e[0m\e[1m\e[32m$md5\e[0m\e[2m")
+			# echo "Result: $result"
 			echo -e "${D}$result${R}" >>$temp_file
 		else
 			echo -e "${D}$line${R}" >>$temp_file
@@ -178,11 +128,18 @@ function checklines() {
 	echo "After processing..."
 	echo -e "Processed: ${YELLOW}CRC32C:	$crc32c${R}"
 	echo -e "Processed: ${YELLOW}MD5:	$md5${R}"
+	# End of Try
+
 	cat $temp_file
 	rm $temp_file
+	# End of Finally
 }
 
-checklines "${lines[@]}"
+if ! checklines "${lines[@]}"; then
+	echo -e "${DEEP_RED}Error: $!${R}"
+	rm $temp_file
+	exit 1
+fi
 
 # Store variabels from the previous run...
 crc32c_checksum=$crc32c
@@ -198,9 +155,6 @@ if [[ "$md5_checksum" == "" ]]; then
 	exit 1
 fi
 
-echo -e "${B}${WHITESMOKE}R${SILVER}e${R}${D}making temp file..."
-
-temp_file=$(mktemp)
 crc32c=""
 md5=""
 output=""
@@ -208,11 +162,18 @@ lines=""
 
 echo -e "Calculating ${CYAN}h${UFO_GREEN}a${CHARTREUSE}s${AMBER}h${ORANGE}.${RED}.${DEEP_RED}.${R}"
 
-output=$(gsutil hash $input)
+output=$(gsutil hash "$full_path" 2>&1)
 mapfile -t lines < <(echo -e "$output")
-checklines "${lines[@]}"
+
+if ! checklines "${lines[@]}"; then
+	echo -e "${DEEP_RED}Error: $!${R}"
+	rm $temp_file
+	exit 1
+fi
+
 crc32c_hash=$crc32c
 md5_hash=$md5
+
 echo -e "Processing complete."
 # echo -e "${BKGD_BLACK}${WHITE}crc32c: $crc32c_hash${R}"
 # echo -e "${BKGD_BLACK}${WHITE}md5: $md5_hash${R}"
@@ -250,7 +211,7 @@ echo -e "Processing complete."
 			exit 1
 		fi
 		if [[ "$md5_hash" != "$md5" ]]; then
-			echo -e "${DEEP_RED}md5 hash mismatch!${R}"
+			echo -e "${DEEP_RED}Md5 hash mismatch!${R}"
 			echo -e "${WHITE}Md5 Checksum: $md5_checksum${R}"
 			echo -e "${WHITE}Md5 Hash: $md5_hash${R}"
 			exit 1
