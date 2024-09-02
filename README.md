@@ -1,11 +1,16 @@
-## IMGNX/DWMII (aka. 🌬️ "Blizzy")
+## IMGNX
 
 Shakespeare 🎭 — "Expectations are pre-meditated resentments"
 
 
-![DiscountstorageHelloGIF](https://github.com/user-attachments/assets/45c109a3-3fb6-4a69-8bf2-dd3c77809c3a)
+
 - 🔭 I’m currently working on ...
-  * I'm not actually sure. Something to do with hardware and storage... Maybe marketing... Maybe Analytics. Maybe AI. I don't really know yet. That's the beauty of it all.
+  * Hardware Optimization.
+  * Storage... optimization.
+  * Marketing.
+  * Analytics.
+  * AI.
+  * My career in men's suit catalogue modelling.
 
 ![ViVimGIF](https://github.com/user-attachments/assets/ce4bbf5e-af80-47dd-a7ad-210b4fef78fc)
 - 🌱 I’m currently learning ...
