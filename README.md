@@ -1,3 +1,5 @@
+![ViVimGIF](https://github.com/user-attachments/assets/ce4bbf5e-af80-47dd-a7ad-210b4fef78fc)
+
 ## IMGNX
 
 Shakespeare 🎭 — "Expectations are pre-meditated resentments"
@@ -12,7 +14,7 @@ Shakespeare 🎭 — "Expectations are pre-meditated resentments"
   * AI.
   * My career in men's suit catalogue modelling.
 
-![ViVimGIF](https://github.com/user-attachments/assets/ce4bbf5e-af80-47dd-a7ad-210b4fef78fc)
+
 - 🌱 I’m currently learning ...
   * That not every language or profiler is ::cough::🤖Vim::cough:: excuse me... is for me. I'm also learning Bash and CMD. I still sort of miss the old DOS days...
 
