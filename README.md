@@ -1,13 +1,24 @@
-## IMGNX/DWMII (aka. 🌬️ "Blizzy")
+
+
+<a href="https://buymeacoffee.com/donaldmoore" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+![ViVimGIF](https://github.com/user-attachments/assets/ce4bbf5e-af80-47dd-a7ad-210b4fef78fc)
+
+## IMGNX
 
 Shakespeare 🎭 — "Expectations are pre-meditated resentments"
 
 
-![DiscountstorageHelloGIF](https://github.com/user-attachments/assets/45c109a3-3fb6-4a69-8bf2-dd3c77809c3a)
-- 🔭 I’m currently working on ...
-  * I'm not actually sure. Something to do with hardware and storage... Maybe marketing... Maybe Analytics. Maybe AI. I don't really know yet. That's the beauty of it all.
 
-![ViVimGIF](https://github.com/user-attachments/assets/ce4bbf5e-af80-47dd-a7ad-210b4fef78fc)
+- 🔭 I’m currently working on ...
+  * Hardware Optimization.
+  * Storage... optimization.
+  * Marketing.
+  * Analytics.
+  * AI.
+  * My career in men's suit catalogue modelling.
+
+
 - 🌱 I’m currently learning ...
   * That not every language or profiler is ::cough::🤖Vim::cough:: excuse me... is for me. I'm also learning Bash and CMD. I still sort of miss the old DOS days...
 
