@@ -12,9 +12,11 @@ pwd=$(pwd)
 
 cd "$SCRIPT_DIR"
 
-cd ../bin
-. colors.sh
-cd $pwd
+if [ -f "./colors.sh" ]; then
+	cd ../bin
+	. ./colors.sh
+	cd $pwd
+fi
 
 # Function to display spinner
 spinner() {

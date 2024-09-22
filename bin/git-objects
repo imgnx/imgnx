@@ -61,7 +61,7 @@ for dir in $(ls $git_obj_dir -t 2>/dev/null | head); do
   # Loop through each file inside the directory
   for file in "$dir"/*; do
     if [[ -f $file ]]; then
-      printf "%s%s" "$dir" "$(basename "$file")"
+      echo "%s%s" "$dir" "$(basename "$file")" | xargs git cat-file -p
     fi
   done
 done
