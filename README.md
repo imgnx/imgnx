@@ -33,3 +33,7 @@ Have a great day! 👋
   <a href="https://buymeacoffee.com/donaldmoore" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
   <a href="https://buymeacoffee.com/donaldmoore" target="_blank"><img src="https://github.com/user-attachments/assets/ce4bbf5e-af80-47dd-a7ad-210b4fef78fc" alt="Buy Me A Coffee" height="41" width="121" style="object-fit: contain"></a>
 </div>
+
+Helpful Links:
+
+[Semantic Commits (joshbuchea)](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
