@@ -1,0 +1,8 @@
+{
+    "files.exclude": {
+        "**/*env*": true // exclude all files with "env" in the name. Even next-env.d.ts is supposed to be ignored.
+    },
+    "git.ignoreSubmodules": true,
+    "search.useIgnoreFiles": false,
+    "editor.formatOnSave": true
+}
