@@ -1,1 +1,0 @@
-I:/IMGNX/bin/git-objects
