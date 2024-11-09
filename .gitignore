@@ -17,3 +17,4 @@ Desktop/**
 .cache_ggshield
 .cache_ggshield**
 .cache_ggshield/**
+**/node_modules
