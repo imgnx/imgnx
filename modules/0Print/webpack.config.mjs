@@ -1,6 +1,5 @@
-import path, { resolve as _resolve, join } from "path";
+import path, { resolve as _resolve, join as _join } from "path";
 import { fileURLToPath } from "url";
-import path from "path";
 import typography from "@tailwindcss/typography";
 import forms from "@tailwindcss/forms";
 import aspectRatio from "@tailwindcss/aspect-ratio";
@@ -53,7 +52,7 @@ export default {
     // },
     devServer: {
         static: {
-            directory: join(__dirname, "dist"),
+            directory: _join(__dirname, "dist"),
         },
         compress: true, // Enable gzip compression for everything served
         port: 3000, // Port to run the dev server on
