@@ -10,6 +10,8 @@
 - [Facebook](https://facebook.com/imgnxtion)
 - [Twitch](https://twitch.tv/imgnxtion)
 
+****
+
 ## Commission
 
 > <span style="color: red; font-weight: 800;" class="text-3xl">Important!</span>
@@ -87,4 +89,5 @@ Have a great day! 👋
 
 Helpful Links:
 
-[Semantic Commits (joshbuchea)](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+- [Semantic Commits (joshbuchea)](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+- Protect your secrets with [`dotenv`](https://dotenvx.org) and [`ggshield` from GitGuardian](<https://github.com/GitGuardian/ggshield>)
