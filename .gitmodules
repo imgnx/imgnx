@@ -7,9 +7,9 @@ path = imgnx_modules/node
 url = https://github.com/imgnx/imgnx.js
 
 [submodule "imgnx_modules/pwsh"]
-path = imgnx_modules/node
+path = imgnx_modules/pwsh
 url = https://github.com/imgnx/imgnx.ps1
 
 [submodule "imgnx_modules/sh"]
-path = imgnx_modules/node
+path = imgnx_modules/sh
 url = https://github.com/imgnx/imgnx.sh
