@@ -4,5 +4,5 @@
     },
     "git.ignoreSubmodules": false,
     "search.useIgnoreFiles": true,
-    "editor.autoFormatOnSave": true
+    "editor.formatOnSave": true
 }
