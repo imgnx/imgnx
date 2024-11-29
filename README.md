@@ -2,7 +2,14 @@
 
 <link rel="stylesheet" href="_atf/output.css">
 
-> <span class="text-lg">"Expectations are pre-meditated resentments"</span><br/>— Unknown<span class="animate-ping">█</span>
+> <span class="text-lg">"Expectations are pre-meditated resentments"</span><br/>— Unknown<span class="animate-ping"> █</span>
+
+
+<div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+  <a href="https://ipchicken.com/link.html" target="_blank"><img src="https://ipchicken.com/images/ipc.gif" width="88" height="31" border="0"></a>
+  <a href="https://buymeacoffee.com/donaldmoore" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+  <a href="https://buymeacoffee.com/donaldmoore" target="_blank"><img src="https://github.com/user-attachments/assets/ce4bbf5e-af80-47dd-a7ad-210b4fef78fc" alt="Buy Me A Coffee" height="41" width="121" style="object-fit: contain"></a>
+</div>
 
 ## Socials
 
@@ -82,10 +89,6 @@ This will allow you to "safely" go public and navigate your IDE at the same time
 
 Have a great day! 👋
 
-<div style="display: flex; gap">
-  <a href="https://buymeacoffee.com/donaldmoore" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-  <a href="https://buymeacoffee.com/donaldmoore" target="_blank"><img src="https://github.com/user-attachments/assets/ce4bbf5e-af80-47dd-a7ad-210b4fef78fc" alt="Buy Me A Coffee" height="41" width="121" style="object-fit: contain"></a>
-</div>
 
 Helpful Links:
 
