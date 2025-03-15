@@ -14,29 +14,65 @@
 ## Socials
 
 <!-- - [X](https://x.com/imgnxtion) -->
-<div style="display: flex; width: 100%; justify-content: between;">
-<a href="https://facebook.com/imgnxtion" target="_blank">[Follow Me on Facebook]</a>
-<a href="https://twitch.tv/imgnxtion" target="_blank">[Follow Me on Twitch]</a>
-<a href="https://discord.gg/WYusjreP4n" target="_blank">[Join Our Discord]</a>
-</div>
+<table>
+    <tr>
+        <td>
+            <a href="https://facebook.com/imgnxtion" target="_blank" style="float: left; position: relative;">
+                <img src="https://storage.googleapis.com/re_imgnx/Assets/facebook.png" width="200" />
+            </a>
+        </td>
+        <td>
+            <a href="https://twitch.tv/imgnxtion" target="_blank" style="float: left;">
+                <img src="https://storage.googleapis.com/re_imgnx/Assets/twitch.png" width="200" />
+            </a>
+        </td>
+        <td>
+            <a href="https://twitch.tv/imgnxtion" target="_blank" style="float: left;">
+                <img src="https://storage.googleapis.com/re_imgnx/Assets/discord.png" width="200" />
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://facebook.com/imgnxtion" target="_blank" style="float: left; position: relative;">
+                <span>Follow Me on Facebook</span>
+            </a>
+        </td>
+        <td>
+            <a href="https://twitch.tv/imgnxtion" target="_blank" style="float: left;">
+                <span>Follow Me on Twitch</span>
+            </a>
+        </td>
+        <td>
+            <a href="https://discord.gg/WYusjreP4n" target="_blank" style="float: left;">
+                <span>Join Our Discord Channel</span>
+            </a>
+        </td>
+    </tr>
+</table>
+
+<video width="320" height="240" controls>
+  <source src="https://storage.googleapis.com/re_imgnx/Assets/brctl.mov" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
 
 ****
 
-## Commission
+## Important Announcements!
 
-> <span style="color: red; font-weight: 800;" class="text-3xl">Important!</span>
->
-> All clients must sign a contract stating that their project is licensed to them!
+### Commissioned Work
+
+> You must sign a contract stating that their project is licensed to you!
 >
 > [Example Service Agreement](https://bit.ly/imgnx)
 
-## `./public/modules`
+### `./public/modules`
 
 All Bounties and otherwise "outside" requests will go into the [./public/modules](./public/modules).
 
 - The folder and repo are named after the ticket number for anonymization. This is a privilege, not a right. If someone gives me a reason to stop doing that, I will start open sourcing every single ticket, and no I've never signed an NDA.
 
-## Domains
+### Domains
 
 Internal repositories (submodules) go into [Domains](./Domains).
 
@@ -45,7 +81,7 @@ Internal repositories (submodules) go into [Domains](./Domains).
 - The thirds level is the subdomain
 - Each subdomain has its own repository
 
-## Recommended Settings
+### Recommended Settings
 
 It's recommended that you exclude `**/*env*` from VS Code or otherwise the IDE of your choice.
 
@@ -65,6 +101,8 @@ This will allow you to "safely" go public and navigate your IDE at the same time
   <br />
   <span class="text-4xl">- Donald Wayne Moore Jr</span>
 </h2>
+
+#### About Me
 
 - 🔭 I’m currently working on ...
   - ⚡️ IMGNX Spark Initiative: An open source initiative
@@ -93,7 +131,7 @@ This will allow you to "safely" go public and navigate your IDE at the same time
 Have a great day! 👋
 
 
-Helpful Links:
+#### Helpful Links:
 
 - [Semantic Commits (joshbuchea)](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
 - Protect your secrets with [`dotenv`](https://dotenv.org) and [`ggshield`](<https://github.com/GitGuardian/ggshield>).
