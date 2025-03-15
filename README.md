@@ -60,7 +60,7 @@ This will allow you to "safely" go public and navigate your IDE at the same time
   <span class="text-4xl">- Donald Wayne Moore Jr</span>
 </h2>
 
-- 🔭 I’m currently working on ...=
+- 🔭 I’m currently working on ...
   - ⚡️ IMGNX Spark Initiative: An open source initiative
 
 - 🌱 I’m currently learning ...
