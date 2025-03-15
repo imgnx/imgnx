@@ -11,8 +11,11 @@
 ## Socials
 
 <!-- - [X](https://x.com/imgnxtion) -->
-- [Facebook](https://facebook.com/imgnxtion)
-- [Twitch](https://twitch.tv/imgnxtion)
+<div style="display: flex; width: 100%; justify-content: between;">
+<a href="https://facebook.com/imgnxtion" target="_blank">[Follow Me on Facebook]</a>
+<a href="https://twitch.tv/imgnxtion" target="_blank">[Follow Me on Twitch]</a>
+<a href="https://discord.gg/WYusjreP4n" target="_blank">[Join Our Discord]</a>
+</div>
 
 ****
 
@@ -90,4 +93,4 @@ Have a great day! 👋
 Helpful Links:
 
 - [Semantic Commits (joshbuchea)](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
-- Protect your secrets with [`dotenv`](https://dotenv.org) and [`ggshield` from GitGuardian](<https://github.com/GitGuardian/ggshield>)
+- Protect your secrets with [`dotenv`](https://dotenv.org) and [`ggshield`](<https://github.com/GitGuardian/ggshield>).
