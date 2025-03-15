@@ -99,8 +99,9 @@ This will allow you to "safely" go public and navigate your IDE at the same time
 <h2 class="mb-10 border-0">
   <span class="!text-sm">From the Desktop of...</span>
   <br />
-  <span class="text-4xl">- Donald Wayne Moore Jr</span>
 </h2>
+
+<small class="text-4xl">Donald Wayne Moore Jr</small>
 
 #### About Me
 
