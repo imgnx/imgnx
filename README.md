@@ -104,30 +104,72 @@ This will allow you to "safely" go public and navigate your IDE at the same time
 <small class="text-4xl">Donald Wayne Moore Jr</small>
 
 #### About Me
-
-- 🔭 I’m currently working on ...
-  - ⚡️ IMGNX Spark Initiative: An open source initiative
-
-- 🌱 I’m currently learning ...
-  - ⌨️ Vim
-
-- 👯 I’m looking to collaborate on ...
-  - ♾️ Everything
-
-- 🤔 I’m looking for help with ..
-  - 👩🏽‍💼 Secretarial Services
-
-- 💬 Ask me about ...
-  - ⚛️ React/Redux
-
-- 📫 How to reach me: ...
-  - 📱 +1 855 539 0044
-
-- 😄 Pronouns: ...
-  - ♂ He/him
-
-- ⚡ Fun fact: ...
-  - 🎸 I tune my guitar to C# Standard.
+<table style="width: 100%;">
+    <tr>
+        <td>
+            🔭 I’m currently working on ...
+        </td>
+        <td>
+          <a href="https://opencollective.com/imgnx" target="_blank">⚡️ IMGNX Spark:</a> An Open Source Initiative
+        </td>
+    </tr>
+    <tr>
+        <td>
+            🌱 I’m currently learning ...
+        </td>
+        <td>
+         - ⌨️ Vim
+        </td>
+    </tr>
+    <tr>
+        <td>
+            👯 I’m looking to collaborate on ...
+        </td>
+        <td>
+      - ♾️ Everything
+        </td>
+    </tr>
+    <tr>
+        <td>
+        🤔 I’m looking for help with ..
+        </td>
+        <td>
+      - 👩🏽‍💼 Secretarial Services
+        </td>
+    </tr>
+    <tr>
+        <td>
+         💬 Ask me about ...
+        </td>
+        <td>
+      - ⚛️ React/Redux
+        </td>
+    </tr>
+    <tr>
+        <td>
+      📫 How to reach me: ...
+        </td>
+        <td>
+      - 📱 +1 770 652 8889
+        </td>
+    </tr>
+    <tr>
+        <td>
+        😄 Pronouns: ...
+        </td>
+        <td>
+     - ♂ He/him<br /><small>(or Pika/chu, depending on who you ask)</small>
+        </td>
+    </tr>
+    <tr>
+        <td>
+      ⚡ Fun fact: ...
+        </td>
+        <td>
+     - 🎸 I tune my guitar to C Standard.
+        </td>
+    </tr>
+</table>
 
 Have a great day! 👋
 
