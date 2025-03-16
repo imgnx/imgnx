@@ -31,6 +31,12 @@
                 <img src="https://storage.googleapis.com/re_imgnx/Assets/discord.png" width="200" />
             </a>
         </td>
+        </td>
+        <td>
+            <a href="https://patreon.com/imgnx" target="_blank" style="float: left;">
+                <img src="https://storage.googleapis.com/re_imgnx/Assets/patreon.png" width="200" />
+            </a>
+        </td>
     </tr>
     <tr>
         <td>
@@ -46,6 +52,12 @@
         <td>
             <a href="https://discord.gg/WYusjreP4n" target="_blank" style="float: left;">
                 <span>Join Our Discord Channel</span>
+            </a>
+        </td>
+        </td>
+        <td>
+            <a href="https://patreon.com/imgnx" target="_blank" style="float: left;">
+                <span>Subscribe via Patreon</span>
             </a>
         </td>
     </tr>
