@@ -1,8 +1,5 @@
 # @imgnx
 
-[Epilogue](https://secure.soundcloud.com/password-reset/eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiQTI1NktXIn0.IUft9UJqvG52qlgmGH_DsXvPysY5NfTj4LsT6Prb8n-SyW2e75QVCw.KZBlf2AX_RtQttsJc3klmQ.c5T-Ry_HEeK9vW7WNK5LJEE4qZeHlae3XTbya_knfagI2SIuEfZ6Bp1nqeO7laX5pSDAJYEaYHbGSfLRkRIUoe_brGtLrW3zgVuPUlVeKcVIXRcPBGYC2Xj2Pvk1vYXoRheXf-VgktoASMKH6t8inCrUiwR6Je2lsDjivSxFKlj3wzu1g2ajgkkpO91WqTX2.DqnZvrQUxeFbrT033vr5CA)
-
-
 <link rel="stylesheet" href="_atf/output.css">
 
 > <div class="text-lg">"Expectations are pre-meditated resentments"</div>
