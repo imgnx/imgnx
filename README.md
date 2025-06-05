@@ -1,8 +1,7 @@
 # @imgnx
 
 <link rel="stylesheet" href="_atf/output.css">
-
-> <div class="text-lg">"Expectations are pre-meditated resentments"</div>
+<div class="text-lg">"Expectations are pre-meditated resentments"</div>
 
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=imgnx&show_icons=true&theme=dark)
 <br />
